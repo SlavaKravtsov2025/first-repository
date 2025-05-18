@@ -42,6 +42,7 @@ class Admin(User):
 user_list = []
 
 admin1 = Admin("Александр")
+
 admin1.add_user("Сергей")
 admin1.add_user("Владимир")
 admin1.add_user("Николай")
